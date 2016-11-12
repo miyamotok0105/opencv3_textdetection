@@ -1,4 +1,5 @@
 # opencv3_textdetection
+this is opencv3 text detection sample program.
 
 * how to resize image
 
@@ -27,6 +28,10 @@
   g++ `pkg-config --libs opencv` `pkg-config --cflags opencv` textdetection_show.cpp -o textdetection_show
 
   how to use
-  
+
   ./textdetection_show company_documents/b.jpg
 
+
+* Licence
+
+MIT Licence
