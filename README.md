@@ -12,21 +12,21 @@
 
   like this        
 
-  python resize.py company_documents/ classed_opencv_text_detiction/
+- python resize.py company_documents/ classed_opencv_text_detiction/
 
 * how to build 
 
-  g++ `pkg-config --libs opencv` `pkg-config --cflags opencv` textdetection_loop.cpp -o textdetection_loop
+- g++ `pkg-config --libs opencv` `pkg-config --cflags opencv` textdetection_loop.cpp -o textdetection_loop
 
   how to use
 
-  ./textdetection_loop classed_opencv_text_detiction/
+ - ./textdetection_loop classed_opencv_text_detiction/
 
 * how to build 
 
-  g++ `pkg-config --libs opencv` `pkg-config --cflags opencv` textdetection_show.cpp -o textdetection_show
+- g++ `pkg-config --libs opencv` `pkg-config --cflags opencv` textdetection_show.cpp -o textdetection_show
 
   how to use
   
-  ./textdetection_show company_documents/b.jpg
+- ./textdetection_show company_documents/b.jpg
 
